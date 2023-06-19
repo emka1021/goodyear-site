@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .product-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .product-item {
+            width: 300px;
+            margin: 10px;
+            padding: 20px;
+            background-color: #f4f4f4;
+            border-radius: 5px;
+            text-align: center;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .product-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .product-item img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .product-item h2 {
+            font-size: 20px;
+            margin-bottom: 5px;
+        }
+
+        .product-item p {
+            font-size: 16px;
+            color: #777;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        body {
+            background-color: #f8f8f8;
+        }
+
+        .product-item img {
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Kampanyalar</h1>
+        <div class="product-list">
+            <div class="product-item">
+                <img src="11.jpeg" alt="Ürün Resmi 1">
+                <h2>Goodyear Yaz Kampanya</h2>
+                <p>Kampanya 15 Mart 2023 – 30 Haziran 2023 tarihleri arasında Goodyear markalı 17 inc ve üzeri binek, 4x4 veya hafif ticari araç, yaz lastiklerinden kampanyaya dahil seçili ürünlerde geçerlidir.</p>
+            </div>
+            <div class="product-item">
+                <img src="12.jpeg" alt="Ürün Resmi 2">
+                <h2>Goodyear Yanımda
+                </h2>
+                <p>Araçlarında Goodyear’ı tercih edenler, sadece bir lastik markasını değil tüm yol hikayeleri boyunca onların yanında olacak bir desteği de tercih ederler.</p>
+            </div>
+            <div class="product-item">
+                <img src="13.jpeg" alt="Ürün Resmi 3">
+                <h2>EfficientGrip Cargo 2</h2>
+                <p>Kampanya 12.01.2021 – 12.01.2022 tarihleri arasında geçerlidir. Kampanyadan faydalanmak için aktivasyon işleminin fatura tarihinden itibaren 30 gün içinde yapılması gerekmektedir.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
